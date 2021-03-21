@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chariot.js": "^3.4.1"
+    "chariot.js": "^3.4.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
   }
 }

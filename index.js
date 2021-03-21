@@ -1,13 +1,15 @@
 const Chariot = require('chariot.js');
+require('dotenv').config()
+const TOKEN = process.env.TOKEN
 
 class ChariotTemplate extends Chariot.Client {
   constructor() {
       super(new Chariot.Config(
-          'PUT BOT TOKEN HERE', 
+          TOKEN, 
           {
               prefix: ['!ct', '@mention'],
               guildPrefixes: [
-                  { guildID: 'PUT GUILD (SERVER) ID HERE', prefix: 'ADD COMMAND PREFIX FOR THAT GUILD HERE' },
+                  { guildID: '698177341586800672', prefix: '?' },
               ],
               defaultHelpCommand: true,
               primaryColor: 'ORANGE',
