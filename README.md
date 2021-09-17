@@ -71,3 +71,5 @@ If you did everything properly, your bot should be added to `CoodeMonkeyWTF_dev`
 After that your bot should be up and running on the server.
 
 #### Should you have any issues or questions, feel free to reach us on our [Discord Server](https://discord.gg/S4UPTe4)
+
+### Contribution guide you can read [here](https://github.com/codemonkeywtf/codemonkey-bot/blob/main/CONTRIBUTE.md).
