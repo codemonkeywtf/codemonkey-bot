@@ -69,3 +69,5 @@ NOTE: Do not push .env file on github repository, but .gitignore file is already
 If you did everything properly, your bot should be added to `CoodeMonkeyWTF_dev` server, but it will be offline at first. To run it, open your bot project in code editor and in terminal run **`npm run-script nodemon`** command.
 
 After that your bot should be up and running on the server.
+
+#### Should you have any issues or questions, feel free to reach us on our [Discord Server](https://discord.gg/S4UPTe4)
