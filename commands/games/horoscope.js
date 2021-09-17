@@ -9,7 +9,7 @@ class Horoscope extends Chariot.Command {
     this.name = 'horoscope';
     this.aliases = [];
     this.allowDMs = false;
-    this.cooldown = 30;
+    this.cooldown = 10;
     this.help = {
       message: 'Returns your horoscope for today.',
       usage: 'horoscope <zodiac sign>',

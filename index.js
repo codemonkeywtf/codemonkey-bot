@@ -7,18 +7,12 @@ class ChariotTemplate extends Chariot.Client {
       super(new Chariot.Config(
           TOKEN, 
           {
-              prefix: ['!ct', '@mention'],
-              guildPrefixes: [
-                  { guildID: '698177341586800672', prefix: '?' },
-              ],
-              defaultHelpCommand: true,
-              primaryColor: 'ORANGE',
-              owner: [
-                  'PUT OWNER ID HERE',
-              ],
-              excludeDirectories: [
-                  'top_secret'
-              ]
+            prefix: ['!', '@mention'],
+            defaultHelpCommand: true,
+            primaryColor: 'ORANGE',
+            owner: [
+              'PUT OWNER ID HERE',
+            ]
           },
           {
               messageLimit: 50,
