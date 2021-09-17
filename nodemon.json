@@ -1,0 +1,5 @@
+{
+  "watch": ["commands"],
+  "ext": "js, json, ts, proto, css, png, jpeg, jpg, ico",
+  "exec": "node index.js"
+}

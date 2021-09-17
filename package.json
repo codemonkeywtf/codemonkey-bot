@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chariot.js": "^3.4.1",
-    "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.1"
+    "chariot.js": "^3.5.0",
+    "dotenv": "^8.6.0",
+    "node-fetch": "^2.6.2",
+    "nodemon": "^2.0.12"
   }
 }
